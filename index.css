@@ -1,0 +1,52 @@
+body {
+    font-weight: 300;
+    background-color: lightskyblue;
+
+}
+
+.styled-title {
+    color: grey;
+    margin-bottom: 25px;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 20px auto;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper h1 {
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 30px;
+    color: lightslategray;
+}
+
+.wrapper>div {
+    margin-bottom: 50px;
+}
+
+.adding-tasks {
+    border-bottom: 1px solid grey;
+    padding: 5px 0 10px 5px;
+}
+
+.adding-tasks input {
+    border: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+.new-tasks-list {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.new-tasks-list h2 {
+    display: inline-block;
+    margin-left: 5px;
+}
+
