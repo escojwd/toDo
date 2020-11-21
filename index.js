@@ -82,8 +82,9 @@ function removeTask(id){
 
 window.addEventListener("storage", function (){
     console.log("this is another tab and it's working");
-        // allTask = JSON.parse(localStorage.getItem("tasks"));
-        // allTask.forEach(createTaskElement);
+    ul.innerHTML = "";
+    allTask = JSON.parse(localStorage.getItem("tasks"));
+    allTask.forEach(createTaskElement);
 
 });
 
